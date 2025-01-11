@@ -12,6 +12,8 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "target": "es2015", // Ensures support for modern JavaScript features
+    "downlevelIteration": true, // Adds support for iterating over `Set`
     "plugins": [
       {
         "name": "next"
